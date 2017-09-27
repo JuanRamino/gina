@@ -23,6 +23,6 @@
     "node": "0.10.x"
   },
   "scripts": {
-    "start": "HUBOT_SLACK_TOKEN=xoxb-204971416164-XdxMshKVtwyruWQulQYp7oF8 ./bin/hubot --adapter slack"
+    "start": "HUBOT_SLACK_TOKEN=$SLACK_TOKEN ./bin/hubot --adapter slack"
   }
 }
