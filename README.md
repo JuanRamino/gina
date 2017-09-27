@@ -19,6 +19,7 @@ behave as expected unless the [environment variables](#configuration) they rely
 upon have been set.
 
 You can start gina locally by running:
+
     SLACK_TOKEN=xxx npm run start
 
 Or:
@@ -37,7 +38,7 @@ Then you can interact with gina by typing `gina help`.
     gina help - Displays all of the help commands that gina knows about.
     ...
 
-You can access to robot router at 127.0.0.1:8080
+You can access to robot router at http://127.0.0.1:8080
 
 ### Configuration
 
